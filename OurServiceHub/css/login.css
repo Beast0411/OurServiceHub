@@ -1,0 +1,28 @@
+.center_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #949A96;
+    justify-content: center;
+    padding: 15px 0 0 0;
+}
+.center_div a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  
+    color: #949A96;
+   
+    padding-right: 1rem;
+   
+}
+.center_div a:hover{
+    text-decoration: underline;
+    color: #4a4a4a;
+}
+@media (min-width:1200px) {
+    .about-img > img {
+        width: 420px ;
+      
+}
+}

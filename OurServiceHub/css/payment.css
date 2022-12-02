@@ -1,0 +1,67 @@
+.per_input_container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.per_input_container1 > div {
+    display: inline-block;
+    width: 35%;
+}
+.per_input_container1 > div > label {
+    font-size: 12px;
+    text-transform: capitalize;
+    
+}
+.per_input_container1 > div >input {
+    width: 40%;
+    padding: 5px 10px;
+    margin: 5px 0 10px;
+    /* margin-bottom: 2rem; */
+    border: 1px solid #949A96;
+    border-radius: 1rem 0.3rem 1rem 0.3rem;
+    font-size: 13px;
+    color: #404040;
+}
+.per_input_container1 > hr {
+    width: 100%;
+    margin: 5px 0;
+}
+.per_input_container3{
+    display: flex;
+    width: 100%;
+    margin: 2px 0;
+    justify-content: space-between;
+}
+.per_input_container3 > p{
+    width: 100%;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.per_input_container3 > span{
+    width: 50%;
+    text-align: end;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.per_input_container4{
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    margin: 2px auto;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width:767px) {
+    .per_input_container4{
+        display: flex;
+        width: 90%;
+        gap: 20px;
+        margin: 2px auto;
+        justify-content: space-between;
+    }
+}
